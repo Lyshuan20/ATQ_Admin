@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/itemUnidades"
+    android:layout_marginHorizontal="0dp"
+    android:layout_marginVertical="3dp"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_unidades"
+            android:id="@+id/MostrarFotoUnidad"
+            />
+        <TextView
+            android:id="@+id/txtMostrarUnidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:drawableTint="@color/black"
+            android:textStyle="bold"
+            android:text="NUM UNIDAD"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/MostrarFotoUnidad"/>
+        <TextView
+            android:id="@+id/txtMostarPlacasUnidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Placas"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/MostrarFotoUnidad"
+            android:layout_below="@+id/txtMostrarUnidad"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/MostrarFotoUnidad"
+            >
+
+            <Button
+                android:id="@+id/btnEditarUnidad"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:text="Editar"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/button_border"/>
+            <Button
+                android:id="@+id/btnEliminarUnidad"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:text="Eliminar"
+                android:background="@drawable/bg_black_corner_10"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/AgregarGasto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/bg_white_corner_16"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_black_corner_16_top_left"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Datos del gasto"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- CAMPOS DDE TEXTO -->
+        <!-- UNIDAD -->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Unidad">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/VerUnidadGasto"
+                android:clickable="false"
+                android:inputType="none"
+                android:focusable="false"
+                android:textIsSelectable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <!-- FECHA DEL GASTO -->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Fecha del gasto">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/VerFechaGasto"
+                android:clickable="false"
+                android:inputType="none"
+                android:focusable="false"
+                android:textIsSelectable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Tipo de gasto">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/VerTipoGasto"
+                android:clickable="false"
+                android:inputType="none"
+                android:focusable="false"
+                android:textIsSelectable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Monto">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/VerMontoGasto"
+                android:clickable="false"
+                android:inputType="none"
+                android:focusable="false"
+                android:textIsSelectable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Descripción">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/VerDescGasto"
+                android:gravity="top"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:maxLines="40"
+                android:clickable="false"
+                android:inputType="none"
+                android:focusable="false"
+                android:textIsSelectable="false"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- BOTON -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCerrarGasto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="20dp"
+            android:text="Cerrar"
+            />
+    </LinearLayout>
+
+</LinearLayout>

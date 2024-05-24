@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "972197583663",
+    "firebase_url": "https://autotransportesquintero-d4e7b-default-rtdb.firebaseio.com",
+    "project_id": "autotransportesquintero-d4e7b",
+    "storage_bucket": "autotransportesquintero-d4e7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972197583663:android:e159344ab266dad4c91fda",
+        "android_client_info": {
+          "package_name": "com.example.atq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972197583663-c6219i5sc1mit4aj7bmce29svputbnev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCML8hUf98qjGBASgFEpGXJDCjtCvGiYdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972197583663-c6219i5sc1mit4aj7bmce29svputbnev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972197583663:android:52870bed2599884cc91fda",
+        "android_client_info": {
+          "package_name": "com.example.atq_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972197583663-c6219i5sc1mit4aj7bmce29svputbnev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCML8hUf98qjGBASgFEpGXJDCjtCvGiYdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972197583663-c6219i5sc1mit4aj7bmce29svputbnev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972197583663:android:c28ef257141ba86ac91fda",
+        "android_client_info": {
+          "package_name": "com.example.atqapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972197583663-c6219i5sc1mit4aj7bmce29svputbnev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCML8hUf98qjGBASgFEpGXJDCjtCvGiYdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972197583663-c6219i5sc1mit4aj7bmce29svputbnev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
